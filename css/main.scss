@@ -55,3 +55,27 @@ $on-laptop:        800px;
     margin-left: 3px;
     text-shadow: 2px 2px 0px #ffb74d, 3px 3px 0px $text-color;
 }
+
+.slogan {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 0px black;
+}
+
+body {
+    background-image: url("../assets/symphony.png");
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#fullshot {
+    float: none;
+    display: table-cell;
+}
+
+#fullshotcard {
+    float: none;
+    display: table-cell;
+}

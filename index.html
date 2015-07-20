@@ -2,22 +2,40 @@
 layout: default
 ---
 
-<div class="home">
+    <div class="row">
+        <div class="card red lighten-2 z-depth-3">
+            <div class="col s12">
+                <div class="card-content white-text">
+                    <span class="card-title slogan flow-text">
+                        <h1>
+                            Being a programmer is like a kid in a candy store,
+                            everyday <i class="fa fa-child"></i>
+                        </h1>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    <div class="row">
+        <div class="card blue lighten-2 z-depth-3">
+            <div class="col s12 m3">
+                <div class="card-content">
+                    <img src="assets/full_shot_cropped.jpg"
+                         alt="Portrait"
+                         class="responsive-img circle"
+                         id="fullshot">
+                </div>
+            </div>
+                <div class="card-content white-text">
+                    <span class="card-title"><strong>Hi, I'm Nick</strong></span>
+                    <p class="flow-text">
+                        Welcome to my site. <br>
+                        A place to see my work, history, skills,
+                        interesting posts and more.
+                        Also, you can contact me and we can
+                        conversate or, even better, work together.
+                    </p>
+                </div>
+        </div>
+    </div>

@@ -14,7 +14,9 @@
               <ul id="mobile-demo" class="side-nav">
                   {% for page in site.pages %}
                       {% if page.title %}
-                      <li><a class="flow-text black-text" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                      <li>
+                          <a class="flow-text black-text" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                      </li>
                       {% endif %}
                   {% endfor %}
               </ul>

@@ -1,0 +1,29 @@
+---
+layout: default
+title: Posts
+---
+
+<div class="row">
+    <div class="card teal z-depth-3">
+        <div class="card-content white-text">
+          <h1 class="slogan">
+              <i class="fa fa-file-text"></i>
+              Posts
+          </h1>
+          <ul class="collection">
+            {% for post in site.posts %}
+              <li class="collection-item black-text">
+                  <blockquote>
+                    <a class="" href="{{ post.url | prepend: site.baseurl }}">
+                        <strong>
+                            {{ post.title }}
+                        </strong>
+                    </a>
+                    <span class="">{{ post.date | date: "%-d/%m/%Y" }}</span>
+                  </blockquote>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+---
+layout: default
+title: Contact Me
+---
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="assets/js/map.js" type="text/javascript"></script>
+<script>
+    function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+            center: new google.maps.LatLng(27.9577858, -15.5964363),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        google.maps.event.addDomListener(window, "resize", function() {
+            var center = map.getCenter();
+            google.maps.event.trigger(map, "resize");
+            map.setCenter(center);
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<div class="row">
+    <div class="card teal z-depth-3">
+        <div class="card-content white-text">
+          <h1 class="slogan">
+              <i class="fa fa-comments"></i>
+              Contact me
+          </h1>
+          <div class="flow-text">
+              <h4>
+                  I'm always happy to talk to you
+                  <i class="fa fa-thumbs-up"></i>
+              </h4>
+              I'll be there if you need me, just talk to me.
+              <ul class="collection">
+                  <li class="collection-item black-text">
+                      <i class="fa fa-user"></i>
+                      <span class="blue-text">
+                          {{ site.full_name }}
+                      </span>
+                  </li>
+                  <li class="collection-item black-text">
+                      <i class="fa fa-phone-square"></i>
+                      <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+                  </li>
+                  <li class="collection-item black-text">
+                      <i class="fa fa-paper-plane"></i>
+                      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                  </li>
+                  <li class="collection-item black-text">
+                      <i class="fa fa-twitter-square"></i>
+                      <a href="http://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>
+                  </li>
+                  <li class="collection-item black-text">
+                      <i class="fa fa-github-square"></i>
+                      <a href="http://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
+                  </li>
+              </ul>
+              <div class="card red lighten-2 z-depth-3">
+                  <div class="col s12">
+                      <div class="card-content white-text">
+                          <span class="card-title slogan center-align">
+                              <h1>We can also meet somewhere here:</h1>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+              <div id="map-canvas"></div>
+          </div>
+        </div>
+    </div>
+</div>

@@ -55,7 +55,7 @@ generated this problem.
 Why?  
 Emacs is open source and has a really big and **active** community.
 
-**"Ok, Nick, but I don't program in Haskell, I use IntelliJ for Java and <Insert other IntelliJ supported language here>!"**
+**"Ok, Nick, but I don't program in Haskell, I use IntelliJ for Java and Ruby (i.e.)!"**
 
 And you should keep using it if you are really comfortable using it.
 

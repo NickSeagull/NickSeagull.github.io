@@ -1,0 +1,9 @@
+body{
+  background:url('https://cloud.githubusercontent.com/assets/9210219/10870875/45f7cdc8-80ce-11e5-9ecf-e2ff7fae1695.png');
+}
+.white-text{
+  color: #F2F1EF;
+  text-shadow: 1px 1px 1px #E2E1DF,
+               3px 3px 5px #000000;
+  font-family: 'Fugaz One', cursive;
+}

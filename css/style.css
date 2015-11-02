@@ -7,3 +7,7 @@ body{
                3px 3px 5px #000000;
   font-family: 'Fugaz One', cursive;
 }
+.small-image{
+  width: 350px;
+  height: 350px;
+}

@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-    <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<head>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
-    <meta charset="utf-8">
-    <title>Landing Page</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="text-center">
-            <img src="https://avatars1.githubusercontent.com/u/7448243?v=3&s=460" class="img-circle small-image">
-          </div>
-        </div>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <title>Nick Seagull's Web</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper primary-color">
+      <a href="#" class="brand-logo center pacifico-font">Nick Seagull</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row margen-img-home">
+      <div class="col s4 margen-rectangulos">
+        <img src="assets/rectangulo.jpg" class=" responsive-img" alt="" />
       </div>
-      <div class="row">
-        <div class="col-md-2 col-md-offset-2">
-          <div class="btn-group-vertical" role="group">
-            <button type="button" class="btn btn-warning btn-lg" aria-label="Left Align" onclick="location.href='mailto:nikitatchayka@gmail.com';">
-              <span class="fa fa-envelope" aria-hidden="true"></span> Email me
-            </button>
-            <button type="button" class="btn btn-success btn-lg" aria-label="Left Align" onclick="location.href='tel:+34674701422';">
-              <span class="fa fa-phone" aria-hidden="true"></span> Call me
-            </button>
-            <button type="button" class="btn btn-info btn-lg" aria-label="Left Align" onclick="location.href='http://twitter.com/codeseagull';">
-              <span class="fa fa-twitter" aria-hidden="true"></span> Twitter
-            </button>
-            <button type="button" class="btn btn-primary btn-lg" aria-label="Left Align" onclick="location.href='https://www.livecoding.tv/codeseagull/';">
-              <span class="fa fa-code" aria-hidden="true"></span> LiveCoding.tv
-            </button>
-            <button type="button" class="btn btn-default btn-lg" aria-label="Left Align" onclick="location.href='http://github.com/nickseagull';">
-              <span class="fa fa-github-alt" aria-hidden="true"></span> Github
-            </button>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <h1 class="white-text">Nick Seagull</h1>
-          <h3 class="white-text">
-            I am a Machine Learning Software Craftsman
-          </h3>
-        </div>
+      <div class="col s4">
+        <img src="assets/portrait.jpg" class="circle responsive-img" alt="" />
       </div>
+      <div class="col s4 margen-rectangulos">
+        <img src="assets/rectangulo.jpg" class=" responsive-img" alt="" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 center pacifico-font">
+        <h3>
+          Hi I’m Nick and I’m a Machine Learning Software Craftsman
+        </h3>
+      </div>
+    </div>
   </div>
-  </body>
+
+  <div class="page-navbar">
+    <nav>
+      <div class="nav-wrapper primary-color">
+        <ul class="left ">
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="sass.html">Blog</a></li>
+          <li><a href="badges.html">About</a></li>
+          <li><a href="badges.html">Contact</a></li>
+        </ul>
+        <ul class="right ">
+          <li><a class="fa fa-github fa-2x" href=""></a></li>
+          <li><a class="fa fa-twitter fa-2x" href=""></a></li>
+          <li><a class="fa fa-code fa-2x" href=""></a></li>
+          <li><a class="fa fa-envelope fa-2x" href=""></a></li>
+          <li><a class="fa fa-phone fa-2x" href=""></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+</body>
 </html>

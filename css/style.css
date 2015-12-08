@@ -1,13 +1,43 @@
-body{
-  background:url('https://cloud.githubusercontent.com/assets/9210219/10870875/45f7cdc8-80ce-11e5-9ecf-e2ff7fae1695.png');
+.secondary-color{
+  background-color:#AAFFAA;
 }
-.white-text{
-  color: #F2F1EF;
-  text-shadow: 1px 1px 1px #E2E1DF,
-               3px 3px 5px #000000;
-  font-family: 'Fugaz One', cursive;
+.primary-color{
+  background-color:#5c6bc0;
 }
-.small-image{
-  width: 350px;
-  height: 350px;
+.margen-img-home{
+  margin-top: 4%;
+}
+.margen-rectangulos{
+  margin-top: 15%;
+}
+.page-navbar{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+.pacifico-font{
+  font-family: 'Pacifico', cursive;
+}
+.sidebar{
+ color: white;
+ position: fixed;
+ z-index: 1000;
+ bottom: 0;
+ top: 0;
+}
+.blog-icons{
+  color: white;
+  padding-top: 40%;
+  padding-bottom: 40%;
+}
+.icon-active{
+  background-color: #5361ad;
+  width: 100%;
+}
+.margen-img-about{
+  margin-top: 8%;
+}
+.underline{
+  border-bottom: 4px solid #5c6bc0;
 }

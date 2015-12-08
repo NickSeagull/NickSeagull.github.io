@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Making minds changed my mind"
-date:   2015-10-1 15:37:00
+date:   2015-11-5 15:37:00
 categories: ai life 
 comments: true
 ---

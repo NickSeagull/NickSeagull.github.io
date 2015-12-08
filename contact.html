@@ -2,61 +2,66 @@
 ---
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <meta charset="utf-8">
-    <title>Nick Seagull's Blog</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav-wrapper primary-color">
-        <a href="#" class="brand-logo center pacifico-font">Nick Seagull</a>
-      </div>
-    </nav>
+<head>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <title>Nick Seagull's Blog</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper primary-color">
+      <a href="#" class="brand-logo center pacifico-font">Nick Seagull</a>
+    </div>
+  </nav>
 
-    <div class="container">
-      <div class="row  margen-img-about" >
-        <div class="col s4">
-            <img src="assets/portrait.jpg" class="circle responsive-img " alt="" />
-        </div>
-        <div class="col s8">
-              <h2 class="center pacifico-font">Contact</h2>
-              <p  class="flow-text">
-            En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, pene muy corto y huevos muy largos. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados...
-            </p>
-        </div>
+  <div class="container">
+    <div class="row  margen-img-about" >
+      <div class="col s4">
+        <img src="assets/portrait.jpg" class="circle responsive-img " alt="" />
       </div>
+      <div class="col s8">
+        <h2 class="center pacifico-font">Contact</h2>
+        <p  class="flow-text">
+          I'll be really pleased to talk to you any time that I'm available, you can
+          call me, send a message and all those things.
+          <br>
+          <br>
+          We can even go and drink some coffee or mate together if you are somewhere
+          near <strong>Las Palmas</strong>! <i class="fa fa-coffee"></i>
+        </p>
+      </div>
+    </div>
 
-      <div class="page-navbar">
-        <nav>
-          <div class="nav-wrapper primary-color">
-            <ul class="left ">
-              <li class=""><a href="{{ site.baseurl }}/index.html">Home</a></li>
-              {% for post in site.posts limit:1 %}
-              <li><a href="{{ post.url | prepend: site.baseurl }}">Blog</a></li>
-              {% endfor %}
-              <li><a href="{{ site.baseurl }}/about.html">About</a></li>
-              <li class="active"><a  href="{{ site.baseurl }}/contact.html">Contact</a></li>
-            </ul>
-            <ul class="right ">
-              <li><a class="fa fa-github fa-2x" href="http://github.com/NickSeagull"></a></li>
-              <li><a class="fa fa-twitter fa-2x" href="http://twitter.com/CodeSeagull"></a></li>
-              <li><a class="fa fa-code fa-2x" href="http://livecoding.tv/CodeSeagull"></a></li>
-              <li><a class="fa fa-envelope fa-2x" href="mailto:nikitatchayka@gmail.com"></a></li>
-              <li><a class="fa fa-phone fa-2x" href="tel:+34674701422"></a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+    <div class="page-navbar">
+      <nav>
+        <div class="nav-wrapper primary-color">
+          <ul class="left ">
+            <li class=""><a href="{{ site.baseurl }}/index.html">Home</a></li>
+            {% for post in site.posts limit:1 %}
+            <li><a href="{{ post.url | prepend: site.baseurl }}">Blog</a></li>
+            {% endfor %}
+            <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+            <li class="active"><a  href="{{ site.baseurl }}/contact.html">Contact</a></li>
+          </ul>
+          <ul class="right ">
+            <li><a class="fa fa-github fa-2x" href="http://github.com/NickSeagull"></a></li>
+            <li><a class="fa fa-twitter fa-2x" href="http://twitter.com/CodeSeagull"></a></li>
+            <li><a class="fa fa-code fa-2x" href="http://livecoding.tv/CodeSeagull"></a></li>
+            <li><a class="fa fa-envelope fa-2x" href="mailto:nikitatchayka@gmail.com"></a></li>
+            <li><a class="fa fa-phone fa-2x" href="tel:+34674701422"></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
 
   </body>
-</html>
+  </html>

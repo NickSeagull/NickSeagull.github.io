@@ -43,7 +43,7 @@
               {% for post in site.posts limit:1 %}
               <li><a href="{{ post.url | prepend: site.baseurl }}">Blog</a></li>
               {% endfor %}
-              <li><a class="active" href="{{ site.baseurl }}/about.html">About</a></li>
+              <li class="active"><a  href="{{ site.baseurl }}/about.html">About</a></li>
               <li><a class="" href="{{ site.baseurl }}/contact.html">Contact</a></li>
             </ul>
             <ul class="right ">

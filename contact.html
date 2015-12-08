@@ -33,25 +33,27 @@
         </div>
       </div>
 
-    <div class="page-navbar">
-      <nav>
-        <div class="nav-wrapper primary-color">
-          <ul class="left">
-            <li ><a href="">Home</a></li>
-            <li><a href="sass.html">Blog</a></li>
-            <li><a href="badges.html">About</a></li>
-            <li class="active"><a href="badges.html">Contact</a></li>
-          </ul>
-          <ul class="right">
-            <li><a class="fa fa-github fa-2x" href=""></a></li>
-            <li><a class="fa fa-twitter fa-2x" href=""></a></li>
-            <li><a class="fa fa-code fa-2x" href=""></a></li>
-            <li><a class="fa fa-envelope fa-2x" href=""></a></li>
-            <li><a class="fa fa-phone fa-2x" href=""></a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+      <div class="page-navbar">
+        <nav>
+          <div class="nav-wrapper primary-color">
+            <ul class="left ">
+              <li class=""><a href="{{ site.baseurl }}/index.html">Home</a></li>
+              {% for post in site.posts limit:1 %}
+              <li><a href="{{ post.url | prepend: site.baseurl }}">Blog</a></li>
+              {% endfor %}
+              <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+              <li><a class="active" href="{{ site.baseurl }}/contact.html">Contact</a></li>
+            </ul>
+            <ul class="right ">
+              <li><a class="fa fa-github fa-2x" href="http://github.com/NickSeagull"></a></li>
+              <li><a class="fa fa-twitter fa-2x" href="http://twitter.com/CodeSeagull"></a></li>
+              <li><a class="fa fa-code fa-2x" href="http://livecoding.tv/CodeSeagull"></a></li>
+              <li><a class="fa fa-envelope fa-2x" href="mailto:nikitatchayka@gmail.com"></a></li>
+              <li><a class="fa fa-phone fa-2x" href="tel:+34674701422"></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 
 
   </body>

@@ -48,9 +48,11 @@
             </ul>
           </p>
           <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-            <a class="btn-floating btn-large indigo tooltipped" data-position="left" data-delay="50" data-tooltip="Last post" href="{{ site.baseurl }}/posts.html">
-              <i class="fa fa-book"></i>
+            {% for post in site.posts limit:1 %}
+            <a class="btn-floating btn-large indigo tooltipped" data-position="left" data-delay="50" data-tooltip="Last post" href="{{ post.url | site.baseurl }}">
+              <i class="fa fa-calendar"></i>
             </a>
+            {% endfor %}
           </div>
         </div>
       </div>

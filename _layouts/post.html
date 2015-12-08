@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <meta charset="utf-8">
   <script src="js/blog.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <title>Nick Seagull's Blog</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
     <div class="row">
       <div class="col s1 primary-color sidebar">
         <ul class="center">
-          <img src="assets/portrait.jpg" class="circle responsive-img" alt="" />
+          <img src="{{ "assets/portrait.jpg" | prepend: site.baseurl }}" class="circle responsive-img" alt="" />
           <li><a class="fa fa-home fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="Home" href=""></a></li>
           <li><a class="icon-active fa fa-book fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="Blog" href=""></a></li>
           <li><a class="fa fa-user-secret fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="About" href=""></a></li>

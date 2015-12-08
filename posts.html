@@ -22,7 +22,7 @@
       <div class="col s1 primary-color sidebar">
         <ul class="center">
           <img src="assets/portrait.jpg" class="circle responsive-img" alt="" />
-          <li><a class="fa fa-home fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="Home" href="{{ site.baseurl }}"></a></li>
+          <li><a class="fa fa-home fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="Home" href="{{ site.baseurl }}/index.html"></a></li>
           {% for post in site.posts limit:1 %}
           <li><a class="icon-active fa fa-book fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="Blog" href="{{ post.url | prepend: site.baseurl }}"></a></li>
           {% endfor %}

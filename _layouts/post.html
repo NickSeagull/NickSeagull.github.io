@@ -22,12 +22,12 @@
       <div class="col s1 primary-color sidebar">
         <ul class="center">
           <img src="{{ "/assets/portrait.jpg" | prepend: site.url }}" class="circle responsive-img" alt="" />
-          <li><a class="fa fa-home fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="Home" href="{{ "index.html" | prepend: site.url }}"></a></li>
+          <li><a class="fa fa-home fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="Home" href="{{ "/index.html" | prepend: site.url }}"></a></li>
           {% for post in site.posts limit:1 %}
           <li><a class="icon-active fa fa-book fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="Blog" href="{{ post.url | prepend: site.url }}"></a></li>
           {% endfor %}
-          <li><a class="fa fa-user-secret fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="About" href="{{ "about.html" | prepend: site.url }}"></a></li>
-          <li><a class="fa fa-comments fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="Contact" href="{{ "contact.html" | prepend: site.url }}"></a></li>
+          <li><a class="fa fa-user-secret fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="About" href="{{ "/about.html" | prepend: site.url }}"></a></li>
+          <li><a class="fa fa-comments fa-2x blog-icons tooltipped" data-position="right" data-delay="50" data-tooltip="Contact" href="{{ "/contact.html" | prepend: site.url }}"></a></li>
         </ul>
       </div>
       <div class="col s11">

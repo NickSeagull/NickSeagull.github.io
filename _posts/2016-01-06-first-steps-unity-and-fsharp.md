@@ -8,7 +8,7 @@ comments: true
 
 After some "depression" with development in general, I finally got my hands back to work and started to tinker with my lovely **F#** again.  
   
-**BUT YOU SAID THAT YOU WOULD STAY WITH <insert other language here> ROAR, BLARGHHGRHAGAHR**  
+**BUT YOU SAID THAT YOU WOULD STAY WITH /insert other language here/ ROAR, BLARGHHGRHAGAHR**  
   
 Whatever, I just realized that **Unity3d** is a really cool simulation/presentation tool so I can do **Machine Learning** stuff in there.  
   

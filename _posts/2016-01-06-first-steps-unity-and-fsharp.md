@@ -80,3 +80,5 @@ So now basically, build your solution, go to your Unity project, and in the `Ass
 Now we can take our `TestComponent` and add it to some game object in our scene, and after running the game we should get the message in our Unity console.  
   
 Have fun!
+
+You can check an example in [my repo](https://github.com/NickSeagull/roll-a-ball) or in [Thorium's](https://github.com/Thorium/Roll-a-ball-FSharp).

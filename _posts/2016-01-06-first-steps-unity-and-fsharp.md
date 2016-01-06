@@ -60,7 +60,7 @@ The `CopyLocal` property of these references should be set to `false` except for
 ### Step Four: Begin to work!
 Now we just have to write some code in a `.fs` file like this:  
   
-```fsharp
+```
 open UnityEngine
 
 type TestComponent ()=

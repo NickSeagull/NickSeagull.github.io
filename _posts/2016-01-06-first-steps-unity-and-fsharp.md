@@ -60,18 +60,17 @@ The `CopyLocal` property of these references should be set to `false` except for
 ### Step Four: Begin to work!
 Now we just have to write some code in a `.fs` file like this:  
   
-```
-open UnityEngine
+    open UnityEngine
 
-type TestComponent ()=
-    inherit MonoBehaviour ()
+    type TestComponent ()=
+        inherit MonoBehaviour ()
   
-    [<SerializeField>]
-    let mutable message: string = "Insert message here"
+        [<SerializeField>]
+        let mutable message: string = "Insert message here"
 
-    member this.Start () =
-        Debug.Log message
-```
+        member this.Start () =
+            Debug.Log message
+
   
 **What's this `SerializeField` thing?**  
 Well, as we are using a compiled version of our *library*, we cannot expose the field through a **public** field, but we do it this way.  

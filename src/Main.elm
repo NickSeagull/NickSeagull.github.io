@@ -1,11 +1,9 @@
 module Main exposing (..)
 
 import Html exposing (Html, div, button, text)
-import Html.Events exposing (onClick)
+import Html.Attributes exposing (..)
 import Html.App
-import Http
 import Task exposing (Task)
-import Json.Decode as Decode
 import Window
 
 
@@ -36,11 +34,9 @@ type Msg
 
 
 view : Model -> Html Msg
-view model =
-    div []
-        [ button [ onClick Fetch ] [ text "Fetch" ]
-        , text <| toString model
-        ]
+view model = 
+    div [id "elm"]
+        [ button [] [ text "Hi"]]
 
 fetchTask : Task x Int
 fetchTask =

@@ -15,8 +15,8 @@ function init() {
     document.getElementById("main").appendChild(renderer.domElement);
     renderScene();
     function renderScene() {
-        stars.rotation.x += 0.005;
-        stars.rotation.x += 0.01;
+        stars.rotation.x += 0.00125;
+        stars.rotation.y += 0.005;
         stars.rotation.z += 0.0025;
         requestAnimationFrame(renderScene);
         renderer.render(scene, camera);

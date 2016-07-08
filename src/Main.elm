@@ -24,47 +24,23 @@ init =
 
 
 type Msg
-    = Fetch
-    | FetchSuccess Int
-    | FetchError String
+    = NoOp
 
 
 
 -- VIEW
-
-
 view : Model -> Html Msg
 view model = 
     div [id "elm"]
         [ button [] [ text "Hi"]]
 
-fetchTask : Task x Int
-fetchTask =
-    Window.width
-
-
-fetchCmd : Cmd Msg
-fetchCmd =
-    Task.perform FetchError FetchSuccess fetchTask
-
-
-
 -- UPDATE
-
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        Fetch ->
-            ( model, fetchCmd )
-
-        FetchSuccess name ->
-            ( name, Cmd.none )
-
-        FetchError _ ->
-            ( -1, Cmd.none )
-
-
+        _ ->
+            ( model, Cmd.none )
 
 -- MAIN
 

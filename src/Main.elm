@@ -4,14 +4,6 @@ import Html.App
 import Site.View exposing (..)
 import Site.Model exposing (..)
 import Site.Update exposing (..)
-import Task exposing (Task)
-import Window
-
--- UPDATE
-
-
--- MAIN
-
 
 main : Program Never
 main =

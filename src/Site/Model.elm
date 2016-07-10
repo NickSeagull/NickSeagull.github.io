@@ -3,10 +3,11 @@ module Site.Model exposing (..)
 import Site.Messages exposing (..)
 
 type alias Model =
-    Int
+    { page : String
+    }
 
 
 init : ( Model, Cmd Msg )
 init =
-    ( 0, Cmd.none )
+    ( {page = "Main"}, Cmd.none )
 

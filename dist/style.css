@@ -1,32 +1,65 @@
+body {
+    background-color: #EEEEEE;
+    height: 100%;
+    margin: 0;
+}
 #heading {
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-    text-align: center;
-    font-size: 7rem;
-    font-family: 'Gruppo', cursive;
-    color: #006AFF;
-    text-shadow: 0px 0px 7px #9999FF;
+    //padding-top: 9rem;
+    //padding-bottom: 9rem;
+    text-align: left;
+    font-size: 3.5rem;
+    font-family: 'Cinzel', serif;
+    text-shadow: 1px 1px 1px #9900EE;
+    font-weight: bold;
+    color: #111111;
 }
 
 a:link,
 a:visited,
 a:hover,
 a:active {
-    color: #006AFF;
+    text-shadow: 1px 1px 1px #9900EE;
+    color: #333333;
 }
 #links{
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Gruppo', cursive;
-    color: #006AFF;
-    text-shadow: 0px 0px 7px #9999FF;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: 1.75rem;
+    font-family: 'Cinzel', serif;
+    color: #333333;
 }
 
 #about-me{
     text-align: justify;
     font-size: 1.25rem;
-    font-family: 'Gruppo', cursive;
-    padding-bottom: 2rem;
-    color: #AAFFFF;
-    //text-shadow: 0px 0px 7px #9999FF;
+    line-height: 3rem;
+    font-family: 'Cinzel', serif;
+    padding: 2rem 2rem 2rem 2rem;
+    color: #333333;
+}
+
+#bio{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+section { height: 100vh; }
+
+.centered-heading {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.full-img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 19px #9900EE;
+}
+
+figcaption {
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    font-family: 'Cinzel', serif;
+    //text-shadow: 1px 1px 1px #9900EE;
+    font-weight: bold;
+    color: #111111;
 }

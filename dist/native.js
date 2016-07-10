@@ -5,7 +5,7 @@ function init() {
     camera = new THREE.PerspectiveCamera(75 ,
                                          window.innerWidth / window.innerHeight ,
                                          1, 1000);
-    renderer = new THREE.WebGLRenderer();
+    renderer = new THREE.WebGLRenderer({alpha: true});
     stars = new THREE.Object3D();
     renderer.setSize(window.innerWidth, window.innerHeight);
     camera.position.set(-30, 40, 30);
@@ -44,11 +44,11 @@ function radialGradientTexture() {
 
     var ctx = canvas.getContext( '2d' );
     var gradient = ctx.createRadialGradient(8, 8, 0, 8, 8, 8);
-    gradient.addColorStop(0,    'rgba(255,255,255,.8)' );
-    gradient.addColorStop(0.4,  'rgba(0,128,128,.6)' );
-    gradient.addColorStop(0.5,  'rgba(0,0,128,.6)' );
-    gradient.addColorStop(0.6,  'rgba(0,0,64,.4)' );
-    gradient.addColorStop(1,    'rgba(0,0,0,.2)' );
+    gradient.addColorStop(0.2,    'rgba(0,0,0,1)' );
+    gradient.addColorStop(0.3,  'rgba(32,0,32,1)' );
+    gradient.addColorStop(0.4,  'rgba(64,0,64,0.6)' );
+    gradient.addColorStop(0.5,  'rgba(150,0,200,1)' );
+    gradient.addColorStop(1,    'rgba(255,255,255,.0)' );
 
     ctx.fillStyle = gradient;
     ctx.fillRect(0, 0, 16, 16); 

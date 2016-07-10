@@ -7712,6 +7712,16 @@ var _NickSeagull$nickseagull$Site_View$aboutView = function (model) {
 			]),
 		'\nNick is a human being really passionate about **machine learning**.  \nHe finds himself extremely comfortable programming in a functional way,\nmostly in **Haskell** and **Python**.  \nCurrently, he is working at **The Agile Monkeys**, developing innovative\nsolutions.  \nSince he started coding at the **age of 12**, he could never satiate his\nhunger for knowledge, always trying new technologies.  \nHis real name is **Nikita Tchayka**.\n');
 };
+var _NickSeagull$nickseagull$Site_View$footer = A2(
+	_elm_lang$html$Html$div,
+	_elm_lang$core$Native_List.fromArray(
+		[
+			_elm_lang$html$Html_Attributes$id('footer')
+		]),
+	_elm_lang$core$Native_List.fromArray(
+		[
+			_elm_lang$html$Html$text('copyright © 2016 Nikita Tchayka')
+		]));
 var _NickSeagull$nickseagull$Site_View$heading = function (s) {
 	return A2(
 		_elm_lang$html$Html$h1,
@@ -8147,29 +8157,36 @@ var _NickSeagull$nickseagull$Site_View$wrapper = function (content) {
 	return A2(
 		_elm_lang$html$Html$div,
 		_elm_lang$core$Native_List.fromArray(
-			[
-				_elm_lang$html$Html_Attributes$id('elm'),
-				_elm_lang$html$Html_Attributes$class('container')
-			]),
+			[]),
 		_elm_lang$core$Native_List.fromArray(
 			[
-				_NickSeagull$nickseagull$Site_View$heading('Nick Seagull'),
-				_NickSeagull$nickseagull$Site_View$menu,
 				A2(
 				_elm_lang$html$Html$div,
 				_elm_lang$core$Native_List.fromArray(
 					[
-						_elm_lang$html$Html_Attributes$class('row')
+						_elm_lang$html$Html_Attributes$id('elm'),
+						_elm_lang$html$Html_Attributes$class('container')
 					]),
 				_elm_lang$core$Native_List.fromArray(
 					[
+						_NickSeagull$nickseagull$Site_View$heading('Nick Seagull'),
+						_NickSeagull$nickseagull$Site_View$menu,
 						A2(
 						_elm_lang$html$Html$div,
 						_elm_lang$core$Native_List.fromArray(
 							[
-								_elm_lang$html$Html_Attributes$class('column column-100')
+								_elm_lang$html$Html_Attributes$class('row')
 							]),
-						content)
+						_elm_lang$core$Native_List.fromArray(
+							[
+								A2(
+								_elm_lang$html$Html$div,
+								_elm_lang$core$Native_List.fromArray(
+									[
+										_elm_lang$html$Html_Attributes$class('column column-100')
+									]),
+								content)
+							]))
 					]))
 			]));
 };

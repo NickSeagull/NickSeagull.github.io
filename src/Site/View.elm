@@ -37,16 +37,17 @@ menu = div
       ]
 
 wrapper : List (Html Msg) -> Html Msg
-wrapper content =
-    div
-    [ id "elm", class "container"]
-    [ heading "Nick Seagull"
-    , menu
-    , div
-      [ class "row" ]
-      [ div
-        [ class "column column-100" ]
-        content
+wrapper content = div []
+    [ div
+      [ id "elm", class "container"]
+      [ heading "Nick Seagull"
+      , menu
+      , div
+            [ class "row" ]
+            [ div
+              [ class "column column-100" ]
+                  content
+            ]
       ]
     ]
 
@@ -61,6 +62,12 @@ heading s =
     h1
     [ id "heading" ]
     [ text s]
+
+footer : Html Msg
+footer =
+    div
+    [ id "footer" ]
+    [ text "copyright © 2016 Nikita Tchayka"]
 
     
 mainView : Model -> Html Msg

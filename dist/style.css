@@ -1,5 +1,6 @@
 #heading {
     padding-top: 9rem;
+    padding-bottom: 9rem;
     text-align: center;
     font-size: 7rem;
     font-family: 'Gruppo', cursive;
@@ -15,9 +16,17 @@ a:active {
 }
 #links{
     text-align: center;
-    padding-top: 9rem;
     font-size: 2rem;
     font-family: 'Gruppo', cursive;
     color: #006AFF;
     text-shadow: 0px 0px 7px #9999FF;
+}
+
+#about-me{
+    text-align: justify;
+    font-size: 1.25rem;
+    font-family: 'Gruppo', cursive;
+    padding-bottom: 2rem;
+    color: #AAFFFF;
+    //text-shadow: 0px 0px 7px #9999FF;
 }

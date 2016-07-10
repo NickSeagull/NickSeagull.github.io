@@ -7787,7 +7787,7 @@ var _NickSeagull$nickseagull$Site_View$projectsView = A2(
 									_elm_lang$html$Html$img,
 									_elm_lang$core$Native_List.fromArray(
 										[
-											_elm_lang$html$Html_Attributes$src('img/cljinvaderz.png'),
+											_elm_lang$html$Html_Attributes$src('https://cloud.githubusercontent.com/assets/7448243/16714562/19f64ca6-46bf-11e6-95f9-bef7b89a0967.png'),
 											_elm_lang$html$Html_Attributes$class('full-img')
 										]),
 									_elm_lang$core$Native_List.fromArray(
@@ -7829,7 +7829,7 @@ var _NickSeagull$nickseagull$Site_View$projectsView = A2(
 									_elm_lang$html$Html$img,
 									_elm_lang$core$Native_List.fromArray(
 										[
-											_elm_lang$html$Html_Attributes$src('img/fmi.png'),
+											_elm_lang$html$Html_Attributes$src('https://cloud.githubusercontent.com/assets/7448243/16714565/1a3abbc0-46bf-11e6-8efa-e344339cb0ec.png'),
 											_elm_lang$html$Html_Attributes$class('full-img')
 										]),
 									_elm_lang$core$Native_List.fromArray(
@@ -7871,7 +7871,7 @@ var _NickSeagull$nickseagull$Site_View$projectsView = A2(
 									_elm_lang$html$Html$img,
 									_elm_lang$core$Native_List.fromArray(
 										[
-											_elm_lang$html$Html_Attributes$src('img/speechy.png'),
+											_elm_lang$html$Html_Attributes$src('https://cloud.githubusercontent.com/assets/7448243/16714567/1a3f96cc-46bf-11e6-9e48-5de1050b4753.png'),
 											_elm_lang$html$Html_Attributes$class('full-img')
 										]),
 									_elm_lang$core$Native_List.fromArray(
@@ -7886,7 +7886,7 @@ var _NickSeagull$nickseagull$Site_View$projectsView = A2(
 											_elm_lang$html$Html$a,
 											_elm_lang$core$Native_List.fromArray(
 												[
-													_elm_lang$html$Html_Attributes$href('https://github.com/NickSeagull/eac-test')
+													_elm_lang$html$Html_Attributes$href('https://github.com/NickSeagull/speechy')
 												]),
 											_elm_lang$core$Native_List.fromArray(
 												[
@@ -7922,7 +7922,7 @@ var _NickSeagull$nickseagull$Site_View$projectsView = A2(
 									_elm_lang$html$Html$img,
 									_elm_lang$core$Native_List.fromArray(
 										[
-											_elm_lang$html$Html_Attributes$src('img/eactest.png'),
+											_elm_lang$html$Html_Attributes$src('https://cloud.githubusercontent.com/assets/7448243/16714563/1a1c68a0-46bf-11e6-8390-67153f5f5fd0.png'),
 											_elm_lang$html$Html_Attributes$class('full-img')
 										]),
 									_elm_lang$core$Native_List.fromArray(
@@ -7964,7 +7964,7 @@ var _NickSeagull$nickseagull$Site_View$projectsView = A2(
 									_elm_lang$html$Html$img,
 									_elm_lang$core$Native_List.fromArray(
 										[
-											_elm_lang$html$Html_Attributes$src('img/synth.png'),
+											_elm_lang$html$Html_Attributes$src('https://cloud.githubusercontent.com/assets/7448243/16714564/1a39fa00-46bf-11e6-93f0-907f725472f6.png'),
 											_elm_lang$html$Html_Attributes$class('full-img')
 										]),
 									_elm_lang$core$Native_List.fromArray(
@@ -8006,7 +8006,7 @@ var _NickSeagull$nickseagull$Site_View$projectsView = A2(
 									_elm_lang$html$Html$img,
 									_elm_lang$core$Native_List.fromArray(
 										[
-											_elm_lang$html$Html_Attributes$src('img/genetic.png'),
+											_elm_lang$html$Html_Attributes$src('https://cloud.githubusercontent.com/assets/7448243/16714566/1a3dda4e-46bf-11e6-9227-f0f27e7512da.png'),
 											_elm_lang$html$Html_Attributes$class('full-img')
 										]),
 									_elm_lang$core$Native_List.fromArray(

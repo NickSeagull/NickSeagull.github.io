@@ -102,7 +102,7 @@ projectsView =
         [ class "column centered-heading"]
         [ figure
           []
-          [ img [ src "img/cljinvaderz.png"
+          [ img [ src "https://cloud.githubusercontent.com/assets/7448243/16714562/19f64ca6-46bf-11e6-95f9-bef7b89a0967.png"
                 , class "full-img"
                 ] []
           , figcaption [] [
@@ -115,7 +115,7 @@ projectsView =
         [ class "column centered-heading"]
         [ figure
           []
-          [ img [ src "img/fmi.png"
+          [ img [ src "https://cloud.githubusercontent.com/assets/7448243/16714565/1a3abbc0-46bf-11e6-8efa-e344339cb0ec.png"
                 , class "full-img"
                 ] []
           , figcaption [] [
@@ -128,11 +128,11 @@ projectsView =
         [ class "column centered-heading"]
         [ figure
           []
-          [ img [ src "img/speechy.png"
+          [ img [ src "https://cloud.githubusercontent.com/assets/7448243/16714567/1a3f96cc-46bf-11e6-9e48-5de1050b4753.png"
                 , class "full-img"
                 ] []
           , figcaption [] [
-                 a [href "https://github.com/NickSeagull/eac-test"]
+                 a [href "https://github.com/NickSeagull/speechy"]
                      [ text "Speechy"]
                  ]
           ]
@@ -144,7 +144,7 @@ projectsView =
         [ class "column centered-heading"]
         [ figure
           []
-          [ img [ src "img/eactest.png"
+          [ img [ src "https://cloud.githubusercontent.com/assets/7448243/16714563/1a1c68a0-46bf-11e6-8390-67153f5f5fd0.png"
                 , class "full-img"
                 ] []
           , figcaption [] [
@@ -157,7 +157,7 @@ projectsView =
         [ class "column centered-heading"]
         [ figure
           []
-          [ img [ src "img/synth.png"
+          [ img [ src "https://cloud.githubusercontent.com/assets/7448243/16714564/1a39fa00-46bf-11e6-93f0-907f725472f6.png"
                 , class "full-img"
                 ] []
           , figcaption [] [
@@ -170,7 +170,7 @@ projectsView =
         [ class "column centered-heading"]
         [ figure
           []
-          [ img [ src "img/genetic.png"
+          [ img [ src "https://cloud.githubusercontent.com/assets/7448243/16714566/1a3dda4e-46bf-11e6-9227-f0f27e7512da.png"
                 , class "full-img"
                 ] []
           , figcaption [] [

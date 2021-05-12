@@ -13,6 +13,14 @@ jobs:
           enable-stack: true
           stack-version: 'latest'
 
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.stack
+          key: ${{ runner.OS }}-stack-cache-${{ hashFiles('**/stack.yaml.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-stack-cache-
+
       - name: Build project
         run: stack build
 

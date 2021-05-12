@@ -1,1 +1,1 @@
-# My homepage generator
+# Nick Seagull's Garage

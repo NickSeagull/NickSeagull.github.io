@@ -7,7 +7,7 @@ import           Hakyll
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
-    match "content/images/*" $ do
+    match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -15,13 +15,13 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["content/about.rst", "content/contact.markdown"]) $ do
+    match (fromList ["about.rst", "contact.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
-    match "content/posts/*" $ do
+    match "posts/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
@@ -43,7 +43,7 @@ main = hakyll $ do
                 >>= relativizeUrls
 
 
-    match "content/index.html" $ do
+    match "index.html" $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"

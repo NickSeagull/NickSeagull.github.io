@@ -1,3 +1,3 @@
 [submodule "content"]
 	path = content
-	url = git@github.com:NickSeagull/garage.git
+	url = https://github.com/NickSeagull/garage.git

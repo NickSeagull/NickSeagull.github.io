@@ -1,0 +1,5 @@
+resolver: lts-17.11
+packages:
+- .
+extra-deps:
+- hakyll-4.14.0.0@sha256:28aab547aa94202d486328aa4bbcd02ecbefc4e5d42dfa15e8137b731a4f5d55,9059

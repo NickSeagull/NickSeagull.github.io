@@ -32,6 +32,18 @@ main {
   padding: 40px 0;
 }
 
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60vw;
+}
+
+main figcaption {
+  text-align: center;
+  font-size: 0.8em;
+  color: gray;
+}
+
 .header {
   text-align: center;
 }

@@ -1,0 +1,29 @@
+{
+  "name": "nickseagull.github.io",
+  "version": "0.0.0",
+  "description": "My website",
+  "main": "build/js/index.js",
+  "scripts": {
+    "build": "tsc && node ./build/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickSeagull/nickseagull.github.io.git"
+  },
+  "author": "Nikita Tchayka",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NickSeagull/nickseagull.github.io/issues"
+  },
+  "homepage": "https://github.com/NickSeagull/nickseagull.github.io#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.11",
+    "@types/node": "^15.12.4",
+    "@types/react": "^17.0.11",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "react": "^17.0.2"
+  }
+}
